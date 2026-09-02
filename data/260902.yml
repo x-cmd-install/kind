@@ -1,0 +1,63 @@
+about:
+  description: Kubernetes IN Docker - local clusters for testing Kubernetes
+  license: Apache-2.0
+  homepage: https://kind.sigs.k8s.io/
+  head: 6a54ab4
+  archived: false
+  latestVersion: v0.33.0
+  collectedAt: 2026-09-02T04:58:23Z
+timeline:
+  created: 2018-09-12
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-26
+popularity:
+  star: 15466
+  watcher: 146
+  fork: 1788
+  release: 39
+  contributor: 719
+  pullRequest: 535
+  issue: 2058
+language:
+  Go: 742690
+  Shell: 94310
+  Dockerfile: 16844
+  Python: 8083
+  Makefile: 7905
+  HTML: 7465
+  CSS: 7102
+  JavaScript: 2442
+totalLine: 886841
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 1
+    mergedPR: 8
+    openPR: 9
+    closedIssue: 3
+    openIssue: 4
+    commit: 12
+  last90d:
+    since: 2026-06-04
+    release: 1
+    mergedPR: 25
+    openPR: 22
+    closedIssue: 9
+    openIssue: 8
+    commit: 31
+  last180d:
+    since: 2026-03-06
+    release: 2
+    mergedPR: 58
+    openPR: 30
+    closedIssue: 18
+    openIssue: 15
+    commit: 89
+  last360d:
+    since: 2025-09-07
+    release: 3
+    mergedPR: 101
+    openPR: 40
+    closedIssue: 44
+    openIssue: 28
+    commit: 178
