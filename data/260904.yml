@@ -7,7 +7,7 @@ about:
   head: aa74c7f
   archived: false
   latestVersion: v0.33.0
-  collectedAt: 2026-09-04T19:54:03Z
+  collectedAt: 2026-09-04T20:46:18Z
 timeline:
   created: 2018-09-12
   lastCommit: 2026-09-04
@@ -87,6 +87,99 @@ total:
   openIssue: 203
   commit: 4865
 ---
+path: /home/runner/.x-repo/github.com/kubernetes-sigs/kind
+collectedAt: 2026-09-04T20:46:19Z
+loc:
+  Go:
+    code: 17840
+    comments: 6171
+    blanks: 2317
+    files: 216
+  Bash:
+    code: 3036
+    comments: 879
+    blanks: 475
+    files: 6
+  Yaml:
+    code: 1013
+    comments: 61
+    blanks: 1
+    files: 25
+  Sh:
+    code: 873
+    comments: 866
+    blanks: 234
+    files: 33
+  Css:
+    code: 357
+    comments: 18
+    blanks: 64
+    files: 1
+  Dockerfile:
+    code: 199
+    comments: 143
+    blanks: 29
+    files: 4
+  Svg:
+    code: 193
+    comments: 2
+    blanks: 0
+    files: 4
+  Html:
+    code: 172
+    comments: 4
+    blanks: 2
+    files: 18
+  Python:
+    code: 166
+    comments: 42
+    blanks: 53
+    files: 1
+  Toml:
+    code: 91
+    comments: 27
+    blanks: 19
+    files: 3
+  Makefile:
+    code: 76
+    comments: 113
+    blanks: 10
+    files: 6
+  JavaScript:
+    code: 55
+    comments: 15
+    blanks: 7
+    files: 1
+  Autoconf:
+    code: 20
+    comments: 27
+    blanks: 7
+    files: 1
+  Bitbake:
+    code: 14
+    comments: 34
+    blanks: 1
+    files: 4
+  Xml:
+    code: 9
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 3086
+    blanks: 1134
+    files: 42
+  Text:
+    code: 0
+    comments: 57
+    blanks: 6
+    files: 8
+total:
+  code: 24236
+  comments: 11551
+  blanks: 4360
+  files: 374
 ---
 date: "2026-08-24"
 repo:
