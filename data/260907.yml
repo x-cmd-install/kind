@@ -5,18 +5,18 @@ about:
   head: aa74c7f
   archived: false
   latestVersion: "v0.33.0"
-  collectedAt: 2026-09-07T04:49:53Z
+  collectedAt: 2026-09-07T19:33:00Z
 timeline:
   created: 2018-09-12
   lastCommit: 2026-09-04
   lastRelease: 2026-08-26
 popularity:
-  star: 15474
+  star: 15477
   watcher: 147
-  fork: 1791
+  fork: 1793
   release: 39
   contributor: 721
-  pullRequest: 2183
+  pullRequest: 2185
   issue: 2061
 language:
   Go: 742690
@@ -33,7 +33,7 @@ recent:
     since: 2026-08-08
     release: 1
     mergedPR: 9
-    openPR: 8
+    openPR: 10
     closedIssue: 4
     openIssue: 5
     commit: 13
@@ -41,7 +41,7 @@ recent:
     since: 2026-07-09
     release: 1
     mergedPR: 14
-    openPR: 16
+    openPR: 17
     closedIssue: 7
     openIssue: 8
     commit: 18
@@ -49,7 +49,7 @@ recent:
     since: 2026-06-09
     release: 1
     mergedPR: 25
-    openPR: 22
+    openPR: 23
     closedIssue: 10
     openIssue: 10
     commit: 28
@@ -57,7 +57,7 @@ recent:
     since: 2026-03-11
     release: 2
     mergedPR: 59
-    openPR: 29
+    openPR: 30
     closedIssue: 19
     openIssue: 17
     commit: 91
@@ -65,7 +65,7 @@ recent:
     since: 2025-09-12
     release: 3
     mergedPR: 100
-    openPR: 39
+    openPR: 40
     closedIssue: 45
     openIssue: 29
     commit: 179
@@ -73,20 +73,20 @@ recent:
     since: 2024-09-17
     release: 9
     mergedPR: 204
-    openPR: 40
+    openPR: 41
     closedIssue: 147
     openIssue: 57
     commit: 557
 total:
   release: 39
   mergedPR: 1648
-  openPR: 43
+  openPR: 44
   closedIssue: 1857
   openIssue: 204
   commit: 4865
 ---
 path: /home/runner/.x-repo/github.com/kubernetes-sigs/kind
-collectedAt: 2026-09-07T04:49:55Z
+collectedAt: 2026-09-07T19:33:05Z
 loc:
   Go:
     code: 17840
@@ -291,7 +291,7 @@ checks:
       - 'Info:   0 out of   3 goCommand dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T04:49:55+00:00
+  collectedAt: 2026-09-07T19:33:08+00:00
   platform:
     darwin/arm64:
       name:  kind-darwin-arm64
