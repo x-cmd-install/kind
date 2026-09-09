@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.33.0"
   latestRelease: "v0.33.0"
   latestPrerelease: "v0.5.1"
-  collectedAt: 2026-09-09T04:51:41Z
+  collectedAt: 2026-09-09T19:15:31Z
 timeline:
   created: 2018-09-12
   lastCommit: 2026-09-04
@@ -37,7 +37,7 @@ recent:
     since: 2026-08-10
     release: 1
     mergedPR: 9
-    openPR: 8
+    openPR: 7
     closedIssue: 4
     openIssue: 5
     commit: 13
@@ -45,7 +45,7 @@ recent:
     since: 2026-07-11
     release: 1
     mergedPR: 14
-    openPR: 15
+    openPR: 14
     closedIssue: 6
     openIssue: 8
     commit: 18
@@ -53,7 +53,7 @@ recent:
     since: 2026-06-11
     release: 1
     mergedPR: 24
-    openPR: 21
+    openPR: 20
     closedIssue: 10
     openIssue: 10
     commit: 28
@@ -61,7 +61,7 @@ recent:
     since: 2026-03-13
     release: 2
     mergedPR: 59
-    openPR: 28
+    openPR: 27
     closedIssue: 19
     openIssue: 17
     commit: 91
@@ -69,7 +69,7 @@ recent:
     since: 2025-09-14
     release: 3
     mergedPR: 100
-    openPR: 38
+    openPR: 37
     closedIssue: 45
     openIssue: 29
     commit: 179
@@ -77,20 +77,20 @@ recent:
     since: 2024-09-19
     release: 9
     mergedPR: 204
-    openPR: 39
+    openPR: 38
     closedIssue: 147
     openIssue: 57
     commit: 557
 total:
   release: 39
   mergedPR: 1648
-  openPR: 42
+  openPR: 41
   closedIssue: 1857
   openIssue: 204
   commit: 4865
 ---
 path: /home/runner/.x-repo/github.com/kubernetes-sigs/kind
-collectedAt: 2026-09-09T04:51:42Z
+collectedAt: 2026-09-09T19:15:36Z
 loc:
   Go:
     code: 17840
