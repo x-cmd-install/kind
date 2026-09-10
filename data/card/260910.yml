@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.33.0"
   latestRelease: "v0.33.0"
   latestPrerelease: "v0.5.1"
-  collectedAt: 2026-09-10T21:38:50Z
+  collectedAt: 2026-09-10T22:11:55Z
 timeline:
   created: 2018-09-12
   lastCommit: 2026-09-04
@@ -90,7 +90,7 @@ total:
   commit: 4865
 ---
 path: /home/runner/.x-repo/github.com/kubernetes-sigs/kind
-collectedAt: 2026-09-10T21:38:52Z
+collectedAt: 2026-09-10T22:11:57Z
 loc:
   Go:
     code: 17840
