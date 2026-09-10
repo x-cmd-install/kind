@@ -23,11 +23,25 @@ x install kind
 - **Latest**: `v0.33.0` (2026-08-26)
 - **Last commit**: 2026-09-04
 - **Assets in release**: 10
-- **Published**: 2026-08-26T21:58:46Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [kind-darwin-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64) | 10.2 MiB | `native/darwin/x64` |
+| [kind-darwin-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64.sha256sum) | 84 B | `native/darwin/x64` |
+| [kind-darwin-arm64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64) | 9.5 MiB | `native/darwin/arm64` |
+| [kind-darwin-arm64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64.sha256sum) | 84 B | `native/darwin/arm64` |
+| [kind-linux-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64) | 10.0 MiB | `native/linux/x64` |
+| [kind-linux-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64.sha256sum) | 83 B | `native/linux/x64` |
+| [kind-linux-arm64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64) | 9.3 MiB | `native/linux/arm64` |
+| [kind-linux-arm64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64.sha256sum) | 83 B | `native/linux/arm64` |
+| [kind-windows-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64) | 10.3 MiB | `native/win/x64` |
+| [kind-windows-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum) | 85 B | `native/win/x64` |
 
 ## Popularity
 
-- **Stars**: 15,481 · **Forks**: 1,793 · **Open issues**: 2,061 · **Contributors**: 721
+- **Stars**: 15,483 · **Forks**: 1,793 · **Open issues**: 2,061 · **Contributors**: 722
 
 ## Totals (cumulative)
 
@@ -68,8 +82,8 @@ Lowest-scoring checks:
 Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kind` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/kind.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/kind.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:48:29Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T17:06:05Z._

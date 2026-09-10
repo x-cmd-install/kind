@@ -4,7 +4,7 @@
 
 Kubernetes IN Docker - local clusters for testing Kubernetes
 
-![kind](https://repo.x-cmd.io/kind.svg)
+![kind](https://repo.x-cmd.io/kind.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,25 @@ x install kind
 - **最新版本**: `v0.33.0` (2026-08-26)
 - **最近提交**: 2026-09-04
 - **Release 含资产**: 10 个
-- **发布时间**: 2026-08-26T21:58:46Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [kind-darwin-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64) | 10.2 MiB | `native/darwin/x64` |
+| [kind-darwin-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64.sha256sum) | 84 B | `native/darwin/x64` |
+| [kind-darwin-arm64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64) | 9.5 MiB | `native/darwin/arm64` |
+| [kind-darwin-arm64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64.sha256sum) | 84 B | `native/darwin/arm64` |
+| [kind-linux-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64) | 10.0 MiB | `native/linux/x64` |
+| [kind-linux-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64.sha256sum) | 83 B | `native/linux/x64` |
+| [kind-linux-arm64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64) | 9.3 MiB | `native/linux/arm64` |
+| [kind-linux-arm64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64.sha256sum) | 83 B | `native/linux/arm64` |
+| [kind-windows-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64) | 10.3 MiB | `native/win/x64` |
+| [kind-windows-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum) | 85 B | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 15,481 · **Fork**: 1,793 · **开放 issue**: 2,061 · **贡献者**: 721
+- **Star**: 15,483 · **Fork**: 1,793 · **开放 issue**: 2,061 · **贡献者**: 722
 
 ## 累计统计
 
@@ -72,4 +86,4 @@ kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:48:30Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T17:06:06Z._
