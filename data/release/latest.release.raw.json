@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 10731920,
       "digest": "sha256:5a99f26f57246dc9319dd294803313197a0f34d33c525b3ea8b655db5916ece0",
-      "download_count": 473,
+      "download_count": 494,
       "created_at": "2026-08-26T21:54:45Z",
       "updated_at": "2026-08-26T21:54:47Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 84,
       "digest": "sha256:f66ff4d2dbbe9a6a27800ac2c6a4f875050cb39e3fcde8ff0cb3c2bc229813bb",
-      "download_count": 237,
+      "download_count": 240,
       "created_at": "2026-08-26T21:54:47Z",
       "updated_at": "2026-08-26T21:54:47Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64.sha256sum"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 9965026,
       "digest": "sha256:0c8c7dbe5e23594a198b786c4bc13dacc101fa6196b0cb0b23a1ca44e61f4b4f",
-      "download_count": 3293,
+      "download_count": 3504,
       "created_at": "2026-08-26T21:54:47Z",
       "updated_at": "2026-08-26T21:54:48Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 84,
       "digest": "sha256:a65c3c0165467954f738c6b4f53552196ffa7ef0e8fd473bb7a31d51b523ce02",
-      "download_count": 644,
+      "download_count": 669,
       "created_at": "2026-08-26T21:54:48Z",
       "updated_at": "2026-08-26T21:54:49Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64.sha256sum"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 10530942,
       "digest": "sha256:aee6151561422756b764a4ae28e7f44cda5af5a9eead3cc9985112b1de8d8e0d",
-      "download_count": 103792,
+      "download_count": 111515,
       "created_at": "2026-08-26T21:54:49Z",
       "updated_at": "2026-08-26T21:54:50Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 83,
       "digest": "sha256:3836001f81bbf5421e6f231b2ca2df8772ce80d6aad02d318d39220470e95cbc",
-      "download_count": 50960,
+      "download_count": 56094,
       "created_at": "2026-08-26T21:54:50Z",
       "updated_at": "2026-08-26T21:54:50Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64.sha256sum"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 9764990,
       "digest": "sha256:20022bee6cfcd5086cb7234d218e3454e6090022f2a8f55d1fa7fcf42c3867a2",
-      "download_count": 7471,
+      "download_count": 8190,
       "created_at": "2026-08-26T21:54:50Z",
       "updated_at": "2026-08-26T21:54:51Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 83,
       "digest": "sha256:bd011d3df2a96add8327677e09eea29ab018671b4098de4fb08c463bdcbf5d92",
-      "download_count": 3561,
+      "download_count": 3988,
       "created_at": "2026-08-26T21:54:51Z",
       "updated_at": "2026-08-26T21:54:51Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64.sha256sum"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 10844160,
       "digest": "sha256:4b22adaa135368c5a465d56bbd8e520cbea87272a06ca00b6078e7b81515c9fc",
-      "download_count": 6952,
+      "download_count": 7265,
       "created_at": "2026-08-26T21:54:51Z",
       "updated_at": "2026-08-26T21:54:52Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 85,
       "digest": "sha256:f68110eec971ce989190b5f11353455a6b7e2cf36aab2f4e5313dd08b6e1231e",
-      "download_count": 1299,
+      "download_count": 1330,
       "created_at": "2026-08-26T21:54:52Z",
       "updated_at": "2026-08-26T21:54:53Z",
       "browser_download_url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum"
