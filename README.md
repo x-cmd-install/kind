@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,484 · **Forks**: 1,793 · **Open issues**: 2,061 · **Contributors**: 722
+- **Stars**: 15,484 · **Forks**: 1,793 · **Open issues**: 2,061 · **Contributors**: 723
 
 ## Totals (cumulative)
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/kind). **11** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/kind). **13** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,8 +91,8 @@ Reported by **97** distros on [repology.org](https://repology.org/project/kind).
 | Debian 13 | `0.27.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
 | Arch | `0.33.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `0.31.0` | ⚠️ outdated |
+| Homebrew | `0.33.0` | ✅ latest |
+| Fedora rawhide | `0.33.0` | ✅ latest |
 | Nix unstable | `0.32.0` | ⚠️ outdated |
 | Alpine edge | `0.31.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.33.0` | ✅ latest |
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:49:35Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:15:52Z._

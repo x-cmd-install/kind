@@ -48,7 +48,7 @@ x install kind
 
 ## 流行度
 
-- **Star**: 15,484 · **Fork**: 1,793 · **开放 issue**: 2,061 · **贡献者**: 722
+- **Star**: 15,484 · **Fork**: 1,793 · **开放 issue**: 2,061 · **贡献者**: 723
 
 ## 累计统计
 
@@ -82,7 +82,7 @@ x install kind
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/kind) 上共有 **97** 个发行版报告此项目。**11** 个 ✅ 已是最新上游版本，**61** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/kind) 上共有 **97** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**59** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -91,8 +91,8 @@ x install kind
 | Debian 13 | `0.27.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
 | Arch | `0.33.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `0.31.0` | ⚠️ outdated |
+| Homebrew | `0.33.0` | ✅ latest |
+| Fedora rawhide | `0.33.0` | ✅ latest |
 | Nix unstable | `0.32.0` | ⚠️ outdated |
 | Alpine edge | `0.31.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.33.0` | ✅ latest |
@@ -106,4 +106,4 @@ kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T04:49:35Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:15:53Z._
