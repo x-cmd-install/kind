@@ -48,7 +48,7 @@ x install kind
 
 ## 流行度
 
-- **Star**: 15,485 · **Fork**: 1,792 · **开放 issue**: 2,061 · **贡献者**: 723
+- **Star**: 15,484 · **Fork**: 1,794 · **开放 issue**: 2,061 · **贡献者**: 723
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install kind
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 9 | 7 | 4 | 5 | 13 |
-| last60d | 2026-07-15 | 1 | 14 | 13 | 6 | 8 | 18 |
-| 90d | 2026-06-15 | 1 | 22 | 20 | 9 | 10 | 28 |
-| last180d | 2026-03-17 | 2 | 59 | 26 | 19 | 17 | 91 |
-| 360d | 2025-09-18 | 3 | 99 | 37 | 42 | 29 | 179 |
-| last720d | 2024-09-23 | 9 | 203 | 38 | 146 | 57 | 555 |
+| 30d | 2026-08-15 | 1 | 9 | 6 | 4 | 5 | 7 |
+| last60d | 2026-07-16 | 1 | 14 | 13 | 6 | 8 | 17 |
+| 90d | 2026-06-16 | 1 | 22 | 20 | 8 | 10 | 25 |
+| last180d | 2026-03-18 | 2 | 59 | 26 | 19 | 17 | 90 |
+| 360d | 2025-09-19 | 3 | 98 | 37 | 42 | 29 | 178 |
+| last720d | 2024-09-24 | 9 | 203 | 38 | 146 | 57 | 555 |
 
 ## Release 资产
 
@@ -80,23 +80,6 @@ x install kind
 | [kind-windows-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64) | 10.3 MiB | `native/win/x64` |
 | [kind-windows-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum) | 85 B | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/kind) 上共有 **97** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**59** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.31.0` | ⚠️ outdated |
-| Debian 14 | `0.31.0` | ⚠️ outdated |
-| Debian 13 | `0.27.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
-| Arch | `0.33.0` | ✅ latest |
-| Homebrew | `0.33.0` | ✅ latest |
-| Fedora rawhide | `0.33.0` | ✅ latest |
-| Nix unstable | `0.32.0` | ⚠️ outdated |
-| Alpine edge | `0.31.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.33.0` | ✅ latest |
-
 ## 改进这些数据
 
 kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `kind` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -106,4 +89,4 @@ kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:01:56Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:16:04Z._
