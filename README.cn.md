@@ -4,7 +4,7 @@
 
 Kubernetes IN Docker - local clusters for testing Kubernetes
 
-![kind](https://repo.x-cmd.io/kind.svg?lang=zh)
+[![x-cmd/install — kind Code Quality Monitoring Repo Card](https://repo.x-cmd.io/kind.svg?lang=zh)](https://x-cmd.com/install/kind)
 
 ## 安装
 
@@ -48,7 +48,7 @@ x install kind
 
 ## 流行度
 
-- **Star**: 15,496 · **Fork**: 1,798 · **开放 issue**: 2,061 · **贡献者**: 725
+- **Star**: 15,497 · **Fork**: 1,797 · **开放 issue**: 2,061 · **贡献者**: 726
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install kind
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 7 | 4 | 4 | 4 | 7 |
-| last60d | 2026-07-20 | 1 | 13 | 9 | 6 | 8 | 17 |
-| 90d | 2026-06-20 | 1 | 22 | 16 | 8 | 10 | 25 |
-| last180d | 2026-03-22 | 2 | 59 | 23 | 19 | 17 | 90 |
-| 360d | 2025-09-23 | 3 | 98 | 34 | 42 | 29 | 178 |
-| last720d | 2024-09-28 | 9 | 203 | 35 | 145 | 57 | 555 |
+| 30d | 2026-08-21 | 1 | 4 | 3 | 3 | 3 | 7 |
+| last60d | 2026-07-22 | 1 | 11 | 8 | 5 | 8 | 17 |
+| 90d | 2026-06-22 | 1 | 19 | 16 | 8 | 10 | 25 |
+| last180d | 2026-03-24 | 2 | 58 | 23 | 19 | 15 | 90 |
+| 360d | 2025-09-25 | 3 | 98 | 34 | 40 | 29 | 178 |
+| last720d | 2024-09-30 | 9 | 203 | 35 | 145 | 57 | 555 |
 
 ## Release 资产
 
@@ -89,4 +89,4 @@ kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:12:10Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:05:15Z._
