@@ -4,7 +4,7 @@
 
 Kubernetes IN Docker - local clusters for testing Kubernetes
 
-[![x-cmd/install — kind Code Quality Monitoring Repo Card](https://repo.x-cmd.io/kind.svg)](https://x-cmd.com/install/kind)
+[![x-cmd/install — kind Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/kind.svg)](https://x-cmd.com/install/kind)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,500 · **Forks**: 1,798 · **Open issues**: 2,061 · **Contributors**: 727
+- **Stars**: 15,502 · **Forks**: 1,798 · **Open issues**: 2,061 · **Contributors**: 727
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 4 | 4 | 2 | 3 | 1 |
-| last60d | 2026-07-24 | 1 | 11 | 9 | 4 | 8 | 14 |
-| 90d | 2026-06-24 | 1 | 19 | 17 | 8 | 10 | 22 |
-| last180d | 2026-03-26 | 2 | 58 | 23 | 19 | 15 | 89 |
-| 360d | 2025-09-27 | 3 | 97 | 35 | 40 | 28 | 172 |
-| last720d | 2024-10-02 | 9 | 203 | 36 | 145 | 57 | 555 |
+| 30d | 2026-08-24 | 1 | 3 | 4 | 2 | 3 | 1 |
+| last60d | 2026-07-25 | 1 | 11 | 9 | 4 | 8 | 14 |
+| 90d | 2026-06-25 | 1 | 18 | 16 | 7 | 10 | 22 |
+| last180d | 2026-03-27 | 2 | 58 | 23 | 19 | 15 | 89 |
+| 360d | 2025-09-28 | 3 | 97 | 35 | 40 | 28 | 172 |
+| last720d | 2024-10-03 | 9 | 203 | 36 | 145 | 57 | 555 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:18:34Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:05:34Z._
