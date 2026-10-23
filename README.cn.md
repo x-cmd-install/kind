@@ -43,27 +43,27 @@ x install kind
 ## 发布
 
 - **最新版本**: `v0.33.0` (2026-08-26)
-- **最近提交**: 2026-10-19
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 10 个
 
 ## 流行度
 
-- **Star**: 15,569 · **Fork**: 1,828 · **开放 issue**: 2,064 · **贡献者**: 744
+- **Star**: 15,573 · **Fork**: 1,823 · **开放 issue**: 2,064 · **贡献者**: 744
 
 ## 累计统计
 
-- **发布数**: 39 · **已合并 PR**: 1653 · **开放 PR**: 45 · **已关闭 issue**: 1863 · **开放 issue**: 201 · **提交数**: 4875
+- **发布数**: 39 · **已合并 PR**: 1654 · **开放 PR**: 45 · **已关闭 issue**: 1863 · **开放 issue**: 201 · **提交数**: 4877
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 5 | 7 | 1 | 1 | 4 |
-| last60d | 2026-08-23 | 1 | 9 | 11 | 5 | 3 | 10 |
-| 90d | 2026-07-24 | 1 | 16 | 15 | 8 | 7 | 20 |
-| last180d | 2026-04-25 | 2 | 58 | 25 | 22 | 12 | 88 |
-| 360d | 2025-10-27 | 3 | 95 | 39 | 36 | 23 | 175 |
-| last720d | 2024-11-01 | 9 | 198 | 42 | 141 | 54 | 541 |
+| 30d | 2026-09-23 | 0 | 6 | 7 | 1 | 1 | 5 |
+| last60d | 2026-08-24 | 1 | 9 | 11 | 5 | 3 | 11 |
+| 90d | 2026-07-25 | 1 | 17 | 15 | 8 | 7 | 21 |
+| last180d | 2026-04-26 | 2 | 59 | 25 | 22 | 12 | 89 |
+| 360d | 2025-10-28 | 3 | 96 | 39 | 36 | 23 | 176 |
+| last720d | 2024-11-02 | 9 | 198 | 42 | 140 | 54 | 543 |
 
 ## Release 资产
 
@@ -80,6 +80,23 @@ x install kind
 | [kind-windows-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64) | 10.3 MiB | `native/win/x64` |
 | [kind-windows-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum) | 85 B | `native/win/x64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/kind) 上共有 **97** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**54** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.33.0` | ✅ latest |
+| Debian 14 | `0.33.0` | ✅ latest |
+| Debian 13 | `0.27.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
+| Arch | `0.33.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `0.33.0` | ✅ latest |
+| Nix unstable | `0.33.0` | ✅ latest |
+| Alpine edge | `0.31.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.33.0` | ✅ latest |
+
 ## 改进这些数据
 
 kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `kind` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -89,4 +106,4 @@ kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:51:23Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:56:04Z._
