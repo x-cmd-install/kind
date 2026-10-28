@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,578 · **Forks**: 1,824 · **Open issues**: 2,064 · **Contributors**: 745
+- **Stars**: 15,579 · **Forks**: 1,824 · **Open issues**: 2,064 · **Contributors**: 746
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 4 | 9 | 0 | 1 | 3 |
-| last60d | 2026-08-28 | 0 | 7 | 14 | 5 | 3 | 7 |
-| 90d | 2026-07-29 | 1 | 16 | 18 | 8 | 7 | 20 |
-| last180d | 2026-04-30 | 2 | 59 | 28 | 22 | 12 | 78 |
-| 360d | 2025-11-01 | 3 | 93 | 42 | 36 | 23 | 171 |
-| last720d | 2024-11-06 | 9 | 194 | 45 | 138 | 54 | 537 |
+| 30d | 2026-09-28 | 0 | 3 | 9 | 0 | 1 | 3 |
+| last60d | 2026-08-29 | 0 | 7 | 14 | 4 | 3 | 7 |
+| 90d | 2026-07-30 | 1 | 16 | 18 | 8 | 7 | 20 |
+| last180d | 2026-05-01 | 2 | 57 | 28 | 22 | 12 | 78 |
+| 360d | 2025-11-02 | 3 | 93 | 42 | 36 | 22 | 171 |
+| last720d | 2024-11-07 | 9 | 194 | 45 | 138 | 53 | 533 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/kind). **18** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/kind). **19** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **97** distros on [repology.org](https://repology.org/project/kind).
 | Debian 13 | `0.27.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
 | Arch | `0.33.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `0.33.0` | ✅ latest |
 | Fedora rawhide | `0.33.0` | ✅ latest |
 | Nix unstable | `0.33.0` | ✅ latest |
 | Alpine edge | `0.31.0` | ⚠️ outdated |
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:17:31Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:46:41Z._
