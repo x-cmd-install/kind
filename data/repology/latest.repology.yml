@@ -1,72 +1,16 @@
-- repo: scoop
-  subrepo: main
+- repo: alpine_3_21
+  subrepo: community
+  srcname: kind
   binname: kind
   visiblename: kind
-  version: 0.33.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: homebrew
-  srcname: kind
-  visiblename: kind
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Run local Kubernetes cluster in Docker
-- repo: kali_rolling
-  subrepo: main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.31.0
-  origversion: 0.31.0-2
+  version: 0.25.0
+  origversion: 0.25.0-r5
   status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: parabola
-  subrepo: extra
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.33.0
-  origversion: 0.33.0-1
-  status: newest
   summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - michal@polanski.me
   licenses:
     - Apache-2.0
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
 - repo: pureos_landing
   subrepo: landing/main
   srcname: kind
@@ -81,34 +25,6 @@
     - arthurbdiniz@gmail.com
   categories:
     - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.33.0
-  origversion: 0.33.0-1
-  status: newest
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbd@debian.org
-  categories:
-    - misc
 - repo: alpine_3_18
   subrepo: community
   srcname: kind
@@ -135,6 +51,20 @@
     - michal@polanski.me
   licenses:
     - Apache-2.0
+- repo: raspbian_stable
+  subrepo: main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
 - repo: alpine_3_18
   subrepo: community
   srcname: kind
@@ -157,19 +87,6 @@
   origversion: 0.18.0-r6
   status: outdated
   summary: Zsh completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.25.0
-  origversion: 0.25.0-r5
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
   maintainers:
     - michal@polanski.me
   licenses:
@@ -639,22 +556,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: kind
-  binnames:
-    - kind
-    - kind-debuginfo
-    - kind-debugsource
-  visiblename: kind
-  version: 0.31.0
-  origversion: 0.31.0-4.fc44
-  status: outdated
-  summary: Kubernetes IN Docker
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-4.0 AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: kind
   binnames:
@@ -664,6 +565,22 @@
   visiblename: kind
   version: 0.31.0
   origversion: 0.31.0-2.fc44
+  status: outdated
+  summary: Kubernetes IN Docker
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-4.0 AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: kind
+  binnames:
+    - kind
+    - kind-debuginfo
+    - kind-debugsource
+  visiblename: kind
+  version: 0.31.0
+  origversion: 0.31.0-4.fc44
   status: outdated
   summary: Kubernetes IN Docker
   licenses:
@@ -727,6 +644,27 @@
   origversion: null
   status: newest
   summary: Run local Kubernetes cluster in Docker
+- repo: homebrew
+  srcname: kind
+  visiblename: kind
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Run local Kubernetes cluster in Docker
+- repo: kali_rolling
+  subrepo: main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: 0.33.0-1
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-containers/kind
   visiblename: app-containers/kind
@@ -744,6 +682,20 @@
     - MIT
   categories:
     - app-containers
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: 0.33.0-1
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: app-containers/kind
   visiblename: app-containers/kind
@@ -914,6 +866,54 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: 0.33.0-1
+  status: newest
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  licenses:
+    - Apache-2.0
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: spack
   srcname: kind
   visiblename: kind
