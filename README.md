@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,595 · **Forks**: 1,829 · **Open issues**: 2,065 · **Contributors**: 751
+- **Stars**: 15,597 · **Forks**: 1,830 · **Open issues**: 2,065 · **Contributors**: 751
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 4 | 7 | 0 | 2 | 4 |
-| last60d | 2026-09-07 | 0 | 7 | 14 | 2 | 2 | 7 |
-| 90d | 2026-08-08 | 1 | 16 | 18 | 7 | 6 | 20 |
-| last180d | 2026-05-10 | 2 | 53 | 29 | 21 | 12 | 71 |
-| 360d | 2025-11-11 | 3 | 92 | 43 | 36 | 23 | 171 |
-| last720d | 2024-11-16 | 8 | 190 | 46 | 133 | 53 | 519 |
+| 30d | 2026-10-08 | 0 | 4 | 7 | 0 | 2 | 4 |
+| last60d | 2026-09-08 | 0 | 7 | 14 | 2 | 2 | 7 |
+| 90d | 2026-08-09 | 1 | 16 | 18 | 7 | 6 | 20 |
+| last180d | 2026-05-11 | 2 | 51 | 29 | 21 | 12 | 71 |
+| 360d | 2025-11-12 | 3 | 92 | 43 | 36 | 23 | 171 |
+| last720d | 2024-11-17 | 8 | 190 | 46 | 133 | 53 | 519 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **95** distros on [repology.org](https://repology.org/project/kind). **18** are ✅ on the latest upstream release, **52** are ⚠️ on an older version.
+Reported by **98** distros on [repology.org](https://repology.org/project/kind). **20** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:49:15Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:07:13Z._
