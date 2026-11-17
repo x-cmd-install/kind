@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,618 · **Forks**: 1,835 · **Open issues**: 2,066 · **Contributors**: 754
+- **Stars**: 15,620 · **Forks**: 1,833 · **Open issues**: 2,066 · **Contributors**: 755
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 1657 · **Open PRs**: 52 · **Closed issues**: 1864 · **Open issues**: 202 · **Commits**: 4883
+- **Releases**: 39 · **Merged PRs**: 1658 · **Open PRs**: 52 · **Closed issues**: 1865 · **Open issues**: 201 · **Commits**: 4885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 4 | 8 | 0 | 3 | 3 |
-| last60d | 2026-09-17 | 0 | 9 | 16 | 1 | 3 | 9 |
-| 90d | 2026-08-18 | 1 | 17 | 20 | 7 | 6 | 15 |
-| last180d | 2026-05-20 | 2 | 52 | 31 | 19 | 12 | 68 |
-| 360d | 2025-11-21 | 3 | 94 | 46 | 34 | 22 | 165 |
-| last720d | 2024-11-26 | 8 | 192 | 49 | 130 | 53 | 523 |
+| 30d | 2026-10-18 | 0 | 5 | 8 | 1 | 1 | 4 |
+| last60d | 2026-09-18 | 0 | 10 | 16 | 2 | 2 | 10 |
+| 90d | 2026-08-19 | 1 | 17 | 19 | 8 | 5 | 16 |
+| last180d | 2026-05-21 | 2 | 49 | 31 | 20 | 11 | 69 |
+| 360d | 2025-11-22 | 3 | 95 | 46 | 35 | 21 | 166 |
+| last720d | 2024-11-27 | 8 | 193 | 49 | 131 | 52 | 525 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **99** distros on [repology.org](https://repology.org/project/kind). **21** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **100** distros on [repology.org](https://repology.org/project/kind). **22** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:38:08Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:29:55Z._
