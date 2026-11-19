@@ -1,336 +1,379 @@
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: kind
+  binnames:
+    - kind
   visiblename: kind
-  version: 0.24.0
-  origversion: 0.24.0-1~ops2deb
-  status: legacy
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: kind
+  binnames:
+    - kind
   visiblename: kind
-  version: 0.23.0
-  origversion: 0.23.0-1~ops2deb
-  status: legacy
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: kind
+  binnames:
+    - kind
   visiblename: kind
-  version: 0.22.0
-  origversion: 0.22.0-1~ops2deb
-  status: legacy
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: kind
+  binnames:
+    - kind
   visiblename: kind
-  version: 0.21.0
-  origversion: 0.21.0-1~ops2deb
-  status: legacy
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kind
+  binnames:
+    - kind
   visiblename: kind
-  version: 0.20.0
-  origversion: 0.20.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
-  visiblename: kind
-  version: 0.19.0
-  origversion: 0.19.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: nix_stable_24_05
-  srcname: kind
-  visiblename: kind
-  version: 0.23.0
-  origversion: null
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - jaka@x-truder.net
-    - david.andrew.mckay@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.18.0
-  origversion: 0.18.0-r6
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: kind
-  binname: kind-bash-completion
-  visiblename: kind-bash-completion
-  version: 0.18.0
-  origversion: 0.18.0-r6
-  status: outdated
-  summary: Bash completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: kind
-  binname: kind-fish-completion
-  visiblename: kind-fish-completion
-  version: 0.18.0
-  origversion: 0.18.0-r6
-  status: outdated
-  summary: Fish completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: kind
-  binname: kind-zsh-completion
-  visiblename: kind-zsh-completion
-  version: 0.18.0
-  origversion: 0.18.0-r6
-  status: outdated
-  summary: Zsh completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.25.0
-  origversion: 0.25.0-r5
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: kind
-  binname: kind-bash-completion
-  visiblename: kind-bash-completion
-  version: 0.25.0
-  origversion: 0.25.0-r5
-  status: outdated
-  summary: Bash completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: kind
-  binname: kind-fish-completion
-  visiblename: kind-fish-completion
-  version: 0.25.0
-  origversion: 0.25.0-r5
-  status: outdated
-  summary: Fish completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: kind
-  binname: kind-zsh-completion
-  visiblename: kind-zsh-completion
-  version: 0.25.0
-  origversion: 0.25.0-r5
-  status: outdated
-  summary: Zsh completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.29.0
-  origversion: 0.29.0-r5
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: kind
-  binname: kind-bash-completion
-  visiblename: kind-bash-completion
-  version: 0.29.0
-  origversion: 0.29.0-r5
-  status: outdated
-  summary: Bash completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: kind
-  binname: kind-fish-completion
-  visiblename: kind-fish-completion
-  version: 0.29.0
-  origversion: 0.29.0-r5
-  status: outdated
-  summary: Fish completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: kind
-  binname: kind-zsh-completion
-  visiblename: kind-zsh-completion
-  version: 0.29.0
-  origversion: 0.29.0-r5
-  status: outdated
-  summary: Zsh completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.30.0
-  origversion: 0.30.0-r7
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: kind
-  binname: kind-bash-completion
-  visiblename: kind-bash-completion
-  version: 0.30.0
-  origversion: 0.30.0-r7
-  status: outdated
-  summary: Bash completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: kind
-  binname: kind-fish-completion
-  visiblename: kind-fish-completion
-  version: 0.30.0
-  origversion: 0.30.0-r7
-  status: outdated
-  summary: Fish completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: kind
-  binname: kind-zsh-completion
-  visiblename: kind-zsh-completion
-  version: 0.30.0
-  origversion: 0.30.0-r7
-  status: outdated
-  summary: Zsh completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.31.0
-  origversion: 0.31.0-r6
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: kind
-  binname: kind-bash-completion
-  visiblename: kind-bash-completion
-  version: 0.31.0
-  origversion: 0.31.0-r6
-  status: outdated
-  summary: Bash completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: kind
-  binname: kind-fish-completion
-  visiblename: kind-fish-completion
-  version: 0.31.0
-  origversion: 0.31.0-r6
-  status: outdated
-  summary: Fish completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: kind
-  binname: kind-zsh-completion
-  visiblename: kind-zsh-completion
-  version: 0.31.0
-  origversion: 0.31.0-r6
-  status: outdated
-  summary: Zsh completions for kind
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: chocolatey
-  binname: kind
-  visiblename: Kind
   version: 0.33.0
+  origversion: 0.33.0-1
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: 0.33.0-1
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
+- repo: homebrew
+  srcname: kind
+  visiblename: kind
+  version: HEAD
   origversion: null
+  status: rolling
+  summary: Run local Kubernetes cluster in Docker
+- repo: kali_rolling
+  subrepo: main
+  srcname: kind
+  binnames:
+    - kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: 0.33.0-1
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
+- repo: alpine_3_18
+  subrepo: community
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.18.0
+  origversion: 0.18.0-r6
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: kind
+  binname: kind-bash-completion
+  visiblename: kind-bash-completion
+  version: 0.18.0
+  origversion: 0.18.0-r6
+  status: outdated
+  summary: Bash completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: kind
+  binname: kind-fish-completion
+  visiblename: kind-fish-completion
+  version: 0.18.0
+  origversion: 0.18.0-r6
+  status: outdated
+  summary: Fish completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: kind
+  binname: kind-zsh-completion
+  visiblename: kind-zsh-completion
+  version: 0.18.0
+  origversion: 0.18.0-r6
+  status: outdated
+  summary: Zsh completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.25.0
+  origversion: 0.25.0-r5
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: kind
+  binname: kind-bash-completion
+  visiblename: kind-bash-completion
+  version: 0.25.0
+  origversion: 0.25.0-r5
+  status: outdated
+  summary: Bash completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: kind
+  binname: kind-fish-completion
+  visiblename: kind-fish-completion
+  version: 0.25.0
+  origversion: 0.25.0-r5
+  status: outdated
+  summary: Fish completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: kind
+  binname: kind-zsh-completion
+  visiblename: kind-zsh-completion
+  version: 0.25.0
+  origversion: 0.25.0-r5
+  status: outdated
+  summary: Zsh completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.29.0
+  origversion: 0.29.0-r5
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: kind
+  binname: kind-bash-completion
+  visiblename: kind-bash-completion
+  version: 0.29.0
+  origversion: 0.29.0-r5
+  status: outdated
+  summary: Bash completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: kind
+  binname: kind-fish-completion
+  visiblename: kind-fish-completion
+  version: 0.29.0
+  origversion: 0.29.0-r5
+  status: outdated
+  summary: Fish completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: kind
+  binname: kind-zsh-completion
+  visiblename: kind-zsh-completion
+  version: 0.29.0
+  origversion: 0.29.0-r5
+  status: outdated
+  summary: Zsh completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: parabola
+  subrepo: extra
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.33.0
+  origversion: 0.33.0-1
   status: newest
   summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.30.0
+  origversion: 0.30.0-r7
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: kind
+  binname: kind-bash-completion
+  visiblename: kind-bash-completion
+  version: 0.30.0
+  origversion: 0.30.0-r7
+  status: outdated
+  summary: Bash completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: kind
+  binname: kind-fish-completion
+  visiblename: kind-fish-completion
+  version: 0.30.0
+  origversion: 0.30.0-r7
+  status: outdated
+  summary: Fish completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: kind
+  binname: kind-zsh-completion
+  visiblename: kind-zsh-completion
+  version: 0.30.0
+  origversion: 0.30.0-r7
+  status: outdated
+  summary: Zsh completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: kind
+  binname: kind
+  visiblename: kind
+  version: 0.31.0
+  origversion: 0.31.0-r6
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: kind
+  binname: kind-bash-completion
+  visiblename: kind-bash-completion
+  version: 0.31.0
+  origversion: 0.31.0-r6
+  status: outdated
+  summary: Bash completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: kind
+  binname: kind-fish-completion
+  visiblename: kind-fish-completion
+  version: 0.31.0
+  origversion: 0.31.0-r6
+  status: outdated
+  summary: Fish completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: kind
+  binname: kind-zsh-completion
+  visiblename: kind-zsh-completion
+  version: 0.31.0
+  origversion: 0.31.0-r6
+  status: outdated
+  summary: Zsh completions for kind
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
 - repo: alpine_edge
   subrepo: community
   srcname: kind
@@ -404,7 +447,7 @@
   binname: kind
   visiblename: kind
   version: 0.33.0
-  origversion: null
+  origversion: 0.33.0-1
   status: newest
   summary: Utility to run Kubernete clusters with Docker
   maintainers:
@@ -491,6 +534,13 @@
   summary: Containerized Kubernetes Environment in Docker (zsh completions)
   licenses:
     - Apache-2.0
+- repo: chocolatey
+  binname: kind
+  visiblename: Kind
+  version: 0.33.0
+  origversion: null
+  status: newest
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
 - repo: debian_13
   subrepo: trixie/main
   srcname: kind
@@ -503,20 +553,6 @@
   maintainers:
     - team+kubernetes@tracker.debian.org
     - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.33.0
-  origversion: 0.33.0-1
-  status: newest
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbd@debian.org
   categories:
     - misc
 - repo: debian_unstable
@@ -674,18 +710,6 @@
     - MIT
   categories:
     - app-containers
-- repo: nix_stable_25_11
-  srcname: kind
-  visiblename: kind
-  version: 0.30.0
-  origversion: null
-  status: outdated
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  maintainers:
-    - jaka@x-truder.net
-    - david.andrew.mckay@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: gentoo_ovl_guru
   srcname: app-containers/kind
   visiblename: app-containers/kind
@@ -710,27 +734,6 @@
   origversion: null
   status: newest
   summary: Run local Kubernetes cluster in Docker
-- repo: homebrew
-  srcname: kind
-  visiblename: kind
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Run local Kubernetes cluster in Docker
-- repo: kali_rolling
-  subrepo: main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.33.0
-  origversion: 0.33.0-1
-  status: newest
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbd@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-containers/kind
   visiblename: app-containers/kind
@@ -829,15 +832,18 @@
   summary: Kubernetes IN Docker - local clusters for testing Kubernetes
   licenses:
     - Apache-2.0
-- repo: wakemeops
-  subrepo: devops
-  binname: kind
+- repo: nix_stable_24_05
+  srcname: kind
   visiblename: kind
-  version: 0.25.0
-  origversion: 0.25.0-1~ops2deb
-  status: legacy
+  version: 0.23.0
+  origversion: null
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
   maintainers:
-    - ops2deb@upciti.com
+    - jaka@x-truder.net
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: kind
   visiblename: kind
@@ -854,6 +860,18 @@
   srcname: kind
   visiblename: kind
   version: 0.29.0
+  origversion: null
+  status: outdated
+  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
+  maintainers:
+    - jaka@x-truder.net
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: kind
+  visiblename: kind
+  version: 0.30.0
   origversion: null
   status: outdated
   summary: Kubernetes IN Docker - local clusters for testing Kubernetes
@@ -903,87 +921,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: kind
-  binname: kind
-  visiblename: kind
-  version: 0.33.0
-  origversion: 0.33.0-1
-  status: newest
-  summary: Kubernetes IN Docker - local clusters for testing Kubernetes
-  licenses:
-    - Apache-2.0
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
-  version: 0.33.0
-  origversion: 0.33.0-1
-  status: newest
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbd@debian.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: kind
@@ -1065,20 +1002,6 @@
   binnames:
     - kind
   visiblename: kind
-  version: 0.31.0
-  origversion: 0.31.0-2
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: kind
-  binnames:
-    - kind
-  visiblename: kind
   version: 0.33.0
   origversion: 0.33.0-1
   status: newest
@@ -1147,6 +1070,69 @@
   visiblename: kind
   version: 0.26.0
   origversion: 0.26.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.25.0
+  origversion: 0.25.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.24.0
+  origversion: 0.24.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.23.0
+  origversion: 0.23.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.22.0
+  origversion: 0.22.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.21.0
+  origversion: 0.21.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.20.0
+  origversion: 0.20.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kind
+  visiblename: kind
+  version: 0.19.0
+  origversion: 0.19.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
