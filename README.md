@@ -14,11 +14,11 @@ x install kind
 
 ## Code insight
 
-Total: **24,169** lines of code across **281** files in the top 5 languages.
+Total: **24,170** lines of code across **281** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 17,855 | 6,171 | 2,318 | 216 |
+| Go | 17,856 | 6,172 | 2,318 | 216 |
 | Bash | 3,036 | 879 | 475 | 6 |
 | Yaml | 1,013 | 61 | 1 | 25 |
 | Sh | 913 | 864 | 237 | 33 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.33.0` (2026-08-26)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-19
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 15,620 · **Forks**: 1,833 · **Open issues**: 2,066 · **Contributors**: 755
+- **Stars**: 15,628 · **Forks**: 1,834 · **Open issues**: 2,068 · **Contributors**: 757
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 1658 · **Open PRs**: 52 · **Closed issues**: 1865 · **Open issues**: 201 · **Commits**: 4885
+- **Releases**: 39 · **Merged PRs**: 1660 · **Open PRs**: 54 · **Closed issues**: 1865 · **Open issues**: 203 · **Commits**: 4889
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 5 | 8 | 1 | 1 | 4 |
-| last60d | 2026-09-18 | 0 | 10 | 16 | 2 | 2 | 10 |
-| 90d | 2026-08-19 | 1 | 17 | 19 | 8 | 5 | 16 |
-| last180d | 2026-05-21 | 2 | 49 | 31 | 20 | 11 | 69 |
-| 360d | 2025-11-22 | 3 | 95 | 46 | 35 | 21 | 166 |
-| last720d | 2024-11-27 | 8 | 193 | 49 | 131 | 52 | 525 |
+| 30d | 2026-10-20 | 0 | 7 | 10 | 1 | 3 | 6 |
+| last60d | 2026-09-20 | 0 | 12 | 18 | 2 | 4 | 12 |
+| 90d | 2026-08-21 | 1 | 16 | 20 | 7 | 6 | 18 |
+| last180d | 2026-05-23 | 2 | 51 | 33 | 20 | 13 | 71 |
+| 360d | 2025-11-24 | 3 | 95 | 47 | 35 | 23 | 168 |
+| last720d | 2024-11-29 | 8 | 195 | 51 | 129 | 54 | 529 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **100** distros on [repology.org](https://repology.org/project/kind). **22** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **99** distros on [repology.org](https://repology.org/project/kind). **22** are ✅ on the latest upstream release, **52** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **100** distros on [repology.org](https://repology.org/project/kind)
 | Debian 13 | `0.27.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
 | Arch | `0.33.0` | ✅ latest |
-| Homebrew | `0.33.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.33.0` | ✅ latest |
 | Nix unstable | `0.33.0` | ✅ latest |
 | Alpine edge | `0.31.0` | ⚠️ outdated |
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:29:55Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:38:44Z._
