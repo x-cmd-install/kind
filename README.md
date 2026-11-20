@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,628 · **Forks**: 1,834 · **Open issues**: 2,068 · **Contributors**: 757
+- **Stars**: 15,630 · **Forks**: 1,834 · **Open issues**: 2,068 · **Contributors**: 758
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 1660 · **Open PRs**: 54 · **Closed issues**: 1865 · **Open issues**: 203 · **Commits**: 4889
+- **Releases**: 39 · **Merged PRs**: 1661 · **Open PRs**: 54 · **Closed issues**: 1867 · **Open issues**: 201 · **Commits**: 4893
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 7 | 10 | 1 | 3 | 6 |
-| last60d | 2026-09-20 | 0 | 12 | 18 | 2 | 4 | 12 |
-| 90d | 2026-08-21 | 1 | 16 | 20 | 7 | 6 | 18 |
-| last180d | 2026-05-23 | 2 | 51 | 33 | 20 | 13 | 71 |
-| 360d | 2025-11-24 | 3 | 95 | 47 | 35 | 23 | 168 |
-| last720d | 2024-11-29 | 8 | 195 | 51 | 129 | 54 | 529 |
+| 30d | 2026-10-21 | 0 | 8 | 10 | 1 | 3 | 9 |
+| last60d | 2026-09-21 | 0 | 13 | 17 | 2 | 4 | 15 |
+| 90d | 2026-08-22 | 1 | 17 | 20 | 7 | 6 | 21 |
+| last180d | 2026-05-24 | 2 | 52 | 33 | 20 | 13 | 74 |
+| 360d | 2025-11-25 | 3 | 94 | 47 | 36 | 22 | 171 |
+| last720d | 2024-11-30 | 8 | 196 | 51 | 131 | 52 | 533 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T08:38:44Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T08:34:06Z._
