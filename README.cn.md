@@ -48,7 +48,7 @@ x install kind
 
 ## 流行度
 
-- **Star**: 15,633 · **Fork**: 1,835 · **开放 issue**: 2,068 · **贡献者**: 758
+- **Star**: 15,635 · **Fork**: 1,836 · **开放 issue**: 2,068 · **贡献者**: 758
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install kind
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 7 | 9 | 1 | 3 | 9 |
-| last60d | 2026-09-22 | 0 | 13 | 17 | 2 | 4 | 15 |
-| 90d | 2026-08-23 | 1 | 17 | 20 | 6 | 6 | 21 |
-| last180d | 2026-05-25 | 2 | 52 | 33 | 18 | 12 | 74 |
-| 360d | 2025-11-26 | 3 | 94 | 47 | 35 | 22 | 171 |
-| last720d | 2024-12-01 | 8 | 196 | 51 | 130 | 52 | 533 |
+| 30d | 2026-10-23 | 0 | 7 | 9 | 1 | 3 | 9 |
+| last60d | 2026-09-23 | 0 | 13 | 16 | 2 | 4 | 15 |
+| 90d | 2026-08-24 | 1 | 16 | 20 | 6 | 6 | 21 |
+| last180d | 2026-05-26 | 2 | 52 | 33 | 18 | 12 | 74 |
+| 360d | 2025-11-27 | 3 | 94 | 47 | 35 | 22 | 171 |
+| last720d | 2024-12-02 | 8 | 196 | 51 | 130 | 52 | 533 |
 
 ## Release 资产
 
@@ -82,7 +82,7 @@ x install kind
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/kind) 上共有 **99** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**52** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/kind) 上共有 **99** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**48** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -94,7 +94,7 @@ x install kind
 | Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.33.0` | ✅ latest |
 | Nix unstable | `0.33.0` | ✅ latest |
-| Alpine edge | `0.31.0` | ⚠️ outdated |
+| Alpine edge | `0.33.0` | ✅ latest |
 | openSUSE Tumbleweed | `0.33.0` | ✅ latest |
 
 ## 改进这些数据
@@ -106,4 +106,4 @@ kind 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261121.yml` · 2026-11-21T07:10:46Z._
+_数据快照: `data/card/261122.yml` · 2026-11-22T06:57:59Z._
