@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,635 · **Forks**: 1,836 · **Open issues**: 2,068 · **Contributors**: 758
+- **Stars**: 15,638 · **Forks**: 1,836 · **Open issues**: 2,068 · **Contributors**: 759
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 7 | 9 | 1 | 3 | 9 |
-| last60d | 2026-09-23 | 0 | 13 | 16 | 2 | 4 | 15 |
-| 90d | 2026-08-24 | 1 | 16 | 20 | 6 | 6 | 21 |
-| last180d | 2026-05-26 | 2 | 52 | 33 | 18 | 12 | 74 |
-| 360d | 2025-11-27 | 3 | 94 | 47 | 35 | 22 | 171 |
-| last720d | 2024-12-02 | 8 | 196 | 51 | 130 | 52 | 533 |
+| 30d | 2026-10-24 | 0 | 7 | 8 | 1 | 3 | 8 |
+| last60d | 2026-09-24 | 0 | 12 | 16 | 2 | 4 | 12 |
+| 90d | 2026-08-25 | 1 | 16 | 20 | 6 | 6 | 16 |
+| last180d | 2026-05-27 | 2 | 52 | 33 | 18 | 12 | 52 |
+| 360d | 2025-11-28 | 3 | 94 | 47 | 35 | 22 | 169 |
+| last720d | 2024-12-03 | 8 | 196 | 51 | 130 | 52 | 533 |
 
 ## Release assets
 
@@ -91,7 +91,7 @@ Reported by **99** distros on [repology.org](https://repology.org/project/kind).
 | Debian 13 | `0.27.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
 | Arch | `0.33.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `0.33.0` | ✅ latest |
 | Fedora rawhide | `0.33.0` | ✅ latest |
 | Nix unstable | `0.33.0` | ✅ latest |
 | Alpine edge | `0.33.0` | ✅ latest |
@@ -106,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:57:59Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T08:02:58Z._
