@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,641 · **Forks**: 1,835 · **Open issues**: 2,068 · **Contributors**: 762
+- **Stars**: 15,647 · **Forks**: 1,835 · **Open issues**: 2,068 · **Contributors**: 762
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 8 | 8 | 1 | 3 | 9 |
-| last60d | 2026-09-25 | 0 | 13 | 15 | 2 | 4 | 13 |
-| 90d | 2026-08-26 | 1 | 15 | 20 | 6 | 6 | 17 |
-| last180d | 2026-05-28 | 2 | 49 | 33 | 18 | 12 | 53 |
-| 360d | 2025-11-29 | 3 | 95 | 47 | 34 | 22 | 170 |
-| last720d | 2024-12-04 | 8 | 197 | 51 | 129 | 51 | 535 |
+| 30d | 2026-10-26 | 0 | 8 | 6 | 1 | 3 | 9 |
+| last60d | 2026-09-26 | 0 | 12 | 15 | 2 | 4 | 13 |
+| 90d | 2026-08-27 | 0 | 15 | 20 | 6 | 6 | 17 |
+| last180d | 2026-05-29 | 2 | 46 | 33 | 18 | 12 | 53 |
+| 360d | 2025-11-30 | 3 | 95 | 47 | 34 | 22 | 170 |
+| last720d | 2024-12-05 | 8 | 197 | 51 | 129 | 51 | 535 |
 
 ## Release assets
 
@@ -80,23 +80,6 @@ Lowest-scoring checks:
 | [kind-windows-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64) | 10.3 MiB | `native/win/x64` |
 | [kind-windows-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum) | 85 B | `native/win/x64` |
 
-## Distribution status
-
-Reported by **99** distros on [repology.org](https://repology.org/project/kind). **26** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.33.0` | ✅ latest |
-| Debian 14 | `0.33.0` | ✅ latest |
-| Debian 13 | `0.27.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
-| Arch | `0.33.0` | ✅ latest |
-| Homebrew | `0.33.0` | ✅ latest |
-| Fedora rawhide | `0.33.0` | ✅ latest |
-| Nix unstable | `0.33.0` | ✅ latest |
-| Alpine edge | `0.33.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.33.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kind` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -106,4 +89,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:14:45Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:46:31Z._
