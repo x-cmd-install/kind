@@ -14,11 +14,11 @@ x install kind
 
 ## Code insight
 
-Total: **24,170** lines of code across **281** files in the top 5 languages.
+Total: **24,180** lines of code across **281** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 17,856 | 6,172 | 2,318 | 216 |
+| Go | 17,866 | 6,172 | 2,322 | 216 |
 | Bash | 3,036 | 879 | 475 | 6 |
 | Yaml | 1,013 | 61 | 1 | 25 |
 | Sh | 913 | 864 | 237 | 33 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.33.0` (2026-08-26)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-25
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 15,647 · **Forks**: 1,835 · **Open issues**: 2,068 · **Contributors**: 762
+- **Stars**: 15,650 · **Forks**: 1,836 · **Open issues**: 2,070 · **Contributors**: 763
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 1662 · **Open PRs**: 54 · **Closed issues**: 1867 · **Open issues**: 201 · **Commits**: 4895
+- **Releases**: 39 · **Merged PRs**: 1663 · **Open PRs**: 56 · **Closed issues**: 1867 · **Open issues**: 203 · **Commits**: 4897
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 8 | 6 | 1 | 3 | 9 |
-| last60d | 2026-09-26 | 0 | 12 | 15 | 2 | 4 | 13 |
-| 90d | 2026-08-27 | 0 | 15 | 20 | 6 | 6 | 17 |
-| last180d | 2026-05-29 | 2 | 46 | 33 | 18 | 12 | 53 |
-| 360d | 2025-11-30 | 3 | 95 | 47 | 34 | 22 | 170 |
-| last720d | 2024-12-05 | 8 | 197 | 51 | 129 | 51 | 535 |
+| 30d | 2026-10-27 | 0 | 8 | 10 | 1 | 5 | 0 |
+| last60d | 2026-09-27 | 0 | 12 | 19 | 1 | 6 | 0 |
+| 90d | 2026-08-28 | 0 | 15 | 24 | 6 | 8 | 0 |
+| last180d | 2026-05-30 | 2 | 44 | 37 | 17 | 14 | 0 |
+| 360d | 2025-12-01 | 3 | 95 | 51 | 34 | 24 | 0 |
+| last720d | 2024-12-06 | 8 | 197 | 55 | 126 | 53 | 537 |
 
 ## Release assets
 
@@ -80,6 +80,23 @@ Lowest-scoring checks:
 | [kind-windows-amd64](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64) | 10.3 MiB | `native/win/x64` |
 | [kind-windows-amd64.sha256sum](https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum) | 85 B | `native/win/x64` |
 
+## Distribution status
+
+Reported by **99** distros on [repology.org](https://repology.org/project/kind). **26** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.33.0` | ✅ latest |
+| Debian 14 | `0.33.0` | ✅ latest |
+| Debian 13 | `0.27.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.30.0` | ⚠️ outdated |
+| Arch | `0.33.0` | ✅ latest |
+| Homebrew | `0.33.0` | ✅ latest |
+| Fedora rawhide | `0.33.0` | ✅ latest |
+| Nix unstable | `0.33.0` | ✅ latest |
+| Alpine edge | `0.33.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.33.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kind` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -89,4 +106,4 @@ Install metadata for kind lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:46:31Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:20:51Z._
